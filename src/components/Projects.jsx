@@ -13,7 +13,7 @@ export default function Projects({ dark }) {
           {PROJECTS.map((p) => (
             <div
               key={p.name}
-              className={`rounded-xl p-5 border transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col gap-3
+              className={`rounded-xl p-5 border transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col gap-3 h-full
                 bg-gradient-to-br p-[1.5px]`}
               style={{
                 background: `linear-gradient(${dark ? "#1a1a2e" : "#ffffff"}, ${dark ? "#1a1a2e" : "#ffffff"}) padding-box, linear-gradient(135deg, var(--tw-gradient-stops)) border-box`,
