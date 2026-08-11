@@ -9,10 +9,10 @@ export const EXPERIENCES = [
     points: [
       "Designed, developed, and maintained scalable RESTful backend services using Python and Django REST Framework for AI-powered business applications.",
       "Integrated third-party APIs and internal AI microservices; implemented JWT-based authentication and role-based access control for secure, production-ready systems.",
-      "Optimized system performance, scalability, and reliability through PostgreSQL query tuning, Redis-based API caching, efficient schema design, and implementing rate limiting/throttling.",
+      "Optimized system performance, scalability, and reliability through Redis-based API caching, reducing average API response latency and improving overall throughput.",
       "Built reliable, non-blocking backend workflows using asynchronous programming and Celery/Redis background task processing, integrated with machine learning pipelines.",
-      "Wrote and maintained comprehensive unit and integration tests to ensure the stability and reliability of REST APIs and backend processes.",
-      "Collaborated with product and engineering teams using Docker and AWS-based cloud deployment workflows, following clean architecture and scalable coding practices.",
+      "Achieved 85% code coverage by writing comprehensive unit and integration tests using Pytest, adhering to Test-Driven Development (TDD) principles to ensure the stability of critical backend processes.",
+      "Set up automated CI/CD pipelines using GitHub Actions and collaborated with an 11-person cross-functional engineering team for seamless Docker and AWS-based cloud deployments, ensuring 99.9% application uptime.",
     ],
   },
   {
@@ -22,8 +22,8 @@ export const EXPERIENCES = [
     period: "Jun 2019 – Oct 2024",
     points: [
       "Promoted from Operator to Project Quality Checker, Mentor, and Team Leader through consistent performance.",
-      "Managed team coordination, quality assurance, and workflow optimization for 2D/3D building floor plan projects.",
-      "Mentored new team members and maintained productive communication across remote and in-office teams.",
+      "Managed team coordination and quality assurance for 2D/3D building floor plan projects.",
+      "Mentored and led a cross-functional team of 6 members, maintaining productive communication across remote and in-office environments and significantly reducing onboarding time for new hires.",
     ],
   },
 ];
@@ -48,7 +48,7 @@ export const PROJECTS = [
     sub: "Clamea",
     client: "🇸🇪 Swedish Client",
     gradient: "from-indigo-500 to-violet-500",
-    description: "Freemium insurance platform featuring a real-time AI chatbot via WebSocket, Firebase social auth, JWT authentication with API throttling, cursor-based pagination, and automated weekly claim reminders via Celery/Redis and Firebase Push Notifications.",
+    description: "Scalable insurance platform supporting 10,000+ potential users with a real-time WebSocket AI chatbot, social auth, in-app purchases, JWT throttling, cursor pagination, and weekly reminders via Celery/Redis.",
     stack: ["Django", "DRF", "WebSocket", "Django Channels", "AI Microservice", "Celery", "Redis", "API Throttling", "In-App Purchases", "Firebase Push Notifications", "PostgreSQL"],
   },
   {
@@ -56,7 +56,7 @@ export const PROJECTS = [
     sub: "Nutrition Analytics",
     client: "🇺🇸 US Client",
     gradient: "from-cyan-500 to-blue-500",
-    description: "Meal tracking and nutrition analytics platform integrating Plaid API for bank transactions. Includes an AI microservice for food photo analysis, with Redis caching for AI responses to significantly reduce API latency.",
+    description: "Meal tracking and nutrition platform integrating Plaid API for bank transactions, featuring food photo AI analysis and Redis caching for AI responses decreasing latency by over 50%.",
     stack: ["Django", "DRF", "Plaid API", "PostgreSQL", "AI Microservice", "Redis Caching", "Celery", "Redis", "Firebase", "CI/CD", "AWS EC2"],
   },
   {
@@ -64,7 +64,7 @@ export const PROJECTS = [
     sub: "Tax Automation",
     client: "🇦🇺 Australian Client",
     gradient: "from-emerald-500 to-cyan-500",
-    description: "Tax rebate automation platform with an AI-powered multi-turn WebSocket interview flow. Features secure document access control and optimized PostgreSQL schemas for complex multi-stage approval workflows.",
+    description: "Tax rebate automation platform with AI-powered WebSocket interview flow and multi-role approval workflow. Designed secure document access control and optimized PostgreSQL schema for state management.",
     stack: ["Django", "DRF", "WebSocket", "Django Channels", "AI Microservice", "Celery", "Redis", "PostgreSQL", "RBAC", "VPS"],
   },
   {
@@ -72,7 +72,7 @@ export const PROJECTS = [
     sub: "Pet E-commerce",
     client: "🇸🇦 KSA Client",
     gradient: "from-amber-500 to-red-500",
-    description: "Pet marketplace with listings, auctions, and vet bookings. Integrates Google Maps API for proximity-based transport matching, real-time push notifications, Telr payment, and Redis caching for high-traffic marketplace queries.",
+    description: "Pet marketplace built to handle 5,000+ daily active users. Integrates Google Maps API for proximity-based transport matching, real-time push notifications, Telr payment, and Redis caching improving page load times by 40%.",
     stack: ["Django", "DRF", "Celery", "Redis Caching", "RabbitMQ", "Telr Payment", "Socket.IO", "Google Maps API", "OneSignal", "PostgreSQL", "Docker", "RBAC", "VPS"],
   },
 ];
