@@ -29,17 +29,17 @@ export const EXPERIENCES = [
 ];
 
 export const SKILLS = [
-  { category: "Languages", color: "indigo", items: ["Python", "JavaScript"] },
-  { category: "Frameworks & Libraries", color: "violet", items: ["Django", "DRF", "React", "Redux", "FastAPI (learning)"] },
+  { category: "Languages", color: "indigo", items: ["Python", "JavaScript", "C", "C++"] },
+  { category: "Frameworks & Libraries", color: "violet", items: ["Django", "DRF", "React", "Redux"] },
   { category: "Design & Styling", color: "amber", items: ["HTML", "CSS", "Tailwind", "Bootstrap"] },
   { category: "Databases", color: "cyan", items: ["PostgreSQL", "MySQL", "SQLite"] },
   { category: "Brokers & Cache", color: "emerald", items: ["Redis", "RabbitMQ", "Celery"] },
+  { category: "Tools & Testing", color: "red", items: ["Git", "Docker", "VPS", "AWS", "CI/CD", "Postman", "Pytest"] },
   { 
     category: "Backend & Architecture", 
     color: "amber", 
     items: ["RESTful API", "WebSocket", "JWT & RBAC", "API Caching", "Throttling", "Asynchronous Programming", "AI Microservices", "System Optimization"] 
   },
-  { category: "Tools & DevOps", color: "red", items: ["Git", "Docker", "VPS", "AWS", "CI/CD", "Postman"] },
 ];
 
 export const PROJECTS = [

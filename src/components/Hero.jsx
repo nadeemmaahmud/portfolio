@@ -16,8 +16,8 @@ export default function Hero({ dark, goTo }) {
           Backend Developer (Python)
         </p>
 
-        <p className={`text-base leading-8 max-w-2xl mb-10 ${dark ? "text-gray-400" : "text-gray-500"}`}>
-          A backend-focused software engineer specializing in Python and the Django ecosystem. I build secure, high-performance APIs and orchestrate asynchronous workflows using Celery and Redis. While my core expertise lies in server-side architecture and database optimization, I also design interactive user interfaces with React and Redux. I have worked with international teams to deploy AI-driven services, real-time messaging systems, and custom payment integrations.
+        <p className={`text-base leading-8 max-w-2xl mb-10 ${dark ? "text-gray-400" : "text-slate-600"}`}>
+          I am a Python Backend Developer focused on building scalable, event-driven systems and integrating AI microservices into production applications. I specialize in the Python/Django ecosystem, with deep experience in asynchronous architectures using Celery, Redis, and WebSockets. Beyond standard REST APIs, I enjoy solving complex performance bottlenecks, optimizing PostgreSQL databases, and automating cloud deployments. Coming from a background of solving 600+ competitive programming problems, I bring a strong analytical mindset and a genuine passion for writing clean, testable code in collaborative engineering teams.
         </p>
 
         <div className="flex flex-wrap gap-3 mb-10">

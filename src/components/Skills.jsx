@@ -19,19 +19,21 @@ export default function Skills({ dark }) {
         <div className="w-10 h-0.5 bg-gradient-to-r from-indigo-500 to-violet-500 rounded mb-10" />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {SKILLS.map((s) => {
+          {SKILLS.map((s, index) => {
             const c = colorMap[s.color];
+            const isLast = index === SKILLS.length - 1;
             return (
               <div
                 key={s.category}
                 className={`rounded-xl p-4 border transition-all duration-200 hover:border-indigo-500 hover:-translate-y-0.5 h-full
-                  ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-white border-slate-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]"}`}
+                  ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-white border-slate-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]"}
+                  ${isLast ? "col-span-1 sm:col-span-2 lg:col-span-3 w-full" : ""}`}
               >
-                <div className="flex items-center gap-2 font-bold text-sm mb-3">
+                <div className={`flex items-center gap-2 font-bold text-sm mb-3 ${isLast ? "justify-center" : ""}`}>
                   <span className={`w-2 h-2 rounded-full flex-shrink-0 ${c.dot}`} />
                   <span className={dark ? "text-white" : "text-slate-700"}>{s.category}</span>
                 </div>
-                <div className="flex flex-wrap gap-1.5">
+                <div className={`flex flex-wrap gap-1.5 ${isLast ? "justify-center" : ""}`}>
                   {s.items.map((item) => (
                     <span key={item} className={`font-mono text-xs px-2 py-0.5 rounded border ${c.tag}`}>
                       {item}
